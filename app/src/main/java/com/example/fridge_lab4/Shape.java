@@ -3,14 +3,16 @@ package com.example.fridge_lab4;
 public abstract class Shape {
     int x;
     int y;
+    String color; // will be used for merge conflict resolution
 
     // Constructor
-    public Shape(int x, int y) {
+    public Shape(int x, int y, String color) {
         this.x = x;
         this.y = y;
+        this.color = color;
     }
 
-    // Abstract method for area (example)
+    // Abstract method for area
     public abstract double area();
 }
 
