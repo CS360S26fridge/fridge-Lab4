@@ -3,8 +3,7 @@ package com.example.fridge_lab4;
 public abstract class Shape {
     int x;
     int y;
-    
-    String color = "red";
+    String color = "blue"; // resolved conflict
 
     // Constructor
     public Shape(int x, int y, String color) {
